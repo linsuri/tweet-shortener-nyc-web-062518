@@ -20,10 +20,9 @@ def word_substituter(tweet)
   dictionary.each do |long, short|
     tweet_array.each do |x|
       if x == long
-        x = short
-        new_tweet_array << x
+        new_tweet_array << short
       else
-        new_tweet_array << x 
+        new_tweet_array << long
       end
     end
   end

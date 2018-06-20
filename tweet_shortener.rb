@@ -22,6 +22,8 @@ def word_substituter(tweet)
       if x == long
         x = short
         new_tweet_array << x
+      else
+        new_tweet_array << x 
       end
     end
   end

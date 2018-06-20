@@ -19,13 +19,11 @@ def word_substituter(tweet)
   tweet_array = tweet.split(" ") 
   new_tweet_array = []
   tweet_array.each do |x|
-    dictionary.each do |long, short|
-      if x.downcase == long
-        new_tweet_array << short
-      else
-        new_tweet_array << x 
-      end
-    end  
+    if dictionary.keys.include?()
+      new_tweet_array << short
+    else
+      new_tweet_array << x 
+    end
   end
   new_tweet_array.join(" ")
 end

@@ -20,7 +20,7 @@ def word_substituter(tweet)
   new_tweet_array = []
   tweet_array.each do |x|
     if dictionary.keys.include?(x.downcase)
-      new_tweet_array << x.
+      new_tweet_array << dictionary
     else
       new_tweet_array << x 
     end

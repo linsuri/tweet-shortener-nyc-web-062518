@@ -18,7 +18,7 @@ end
 def word_substituter(tweet)
   tweet_array = tweet.split(" ") 
   new_tweet_array = []
-  if tweet_array.each do |long, short|
+  dictionary.each do |long, short|
     tweet_array.each do |x|
       if x.downcase == long
         new_tweet_array << short

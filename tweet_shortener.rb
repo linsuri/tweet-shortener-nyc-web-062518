@@ -1,3 +1,10 @@
 # Write your code here.
 
-def 
+def dictionary
+  dictionary = {
+    
+  }
+end  
+  
+def word_substituter(tweet)
+  
